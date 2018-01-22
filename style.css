@@ -1,14 +1,154 @@
-body{margin:0;}
-
-.photo-loader{
-    width:100vw;
-    height:100vh;
-    display:flex;
-    flex-wrap:wrap;
+body {
+    margin: 0;
 }
-.photo-loader img{
-    width: calc(100% / 6);
+.photo-loader{
+    position:relative;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    overflow: hidden;
+}
+.photo-loader > div:not(:last-child) {
+    width: 100%;
     height: 50%;
-    flex-grow:1;
-display:inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-loader div div {
+
+    width: calc(100% / 6);
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*  background-image:url('somepic.jpg');*/
+}
+.load-1 {
+    animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:0.5s;
+    opacity:0;
+    background-image:url("https://i.pinimg.com/originals/5e/17/fe/5e17fe61fd295bff09c110daa942eabd.jpg");
+}
+
+.load-2 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    opacity:0;
+    background-image:url("https://www.nbc.com/sites/nbcunbc/files/files/images/2014/5/09/2014_0507_NBCUXD_Upfront2014_MarryMe_Bio_KenMarino_1230x1230_CC.jpg");
+}
+
+.load-3 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:1.5s;
+    opacity:0;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMTgxODU3MV5BMl5BanBnXkFtZTcwMTk3Njk4OQ@@._V1_SY1000_CR0,0,743,1000_AL_.jpg");
+}
+
+.load-4 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:2s;
+    opacity:0;
+    background-image:url("https://static1.squarespace.com/static/53fba539e4b0a52701b62eb4/t/58c0caf9579fb332f9d3952c/1489029930083/");
+}
+
+.load-5 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:2.5s;
+    opacity:0;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Jason_Dohring_by_Gage_Skidmore.jpg/1200px-Jason_Dohring_by_Gage_Skidmore.jpg");
+}
+
+.load-6 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:3s;
+    opacity:0;
+    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/k-l/thumbs/leonardo-dicaprio_sc_768x1024.png");
+}
+
+.load-7 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:3.5s;
+    opacity:0;
+    background-image:url("https://vignette.wikia.nocookie.net/stargate/images/0/07/Enrico_Colantoni.jpg/revision/latest?cb=20090824093652");
+}
+
+.load-8 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:4s;
+    opacity:0;
+    background-image:url("http://iv1.lisimg.com/image/7069349/740full-tina-majorino.jpg");
+}
+.load-9 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:4.5s;
+    opacity:0;
+    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/g-i/thumbs/harry-hamlin_sc_768x1024.png");
+}
+.load-10 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:5s;
+    opacity:0;
+    background-image:url("http://vignette2.wikia.nocookie.net/veronicamars/images/0/0f/Teddy_Dunn.jpg/revision/latest?cb=20140211054702");
+}
+
+.load-11 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMDgyNDc3NF5BMl5BanBnXkFtZTgwMjc0MTcyMTE@._V1_.jpg");
+}
+
+.load-12 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:6s;
+    opacity:0;
+    background-image:url("https://media.glamour.com/photos/56966c5616d0dc3747f03b0d/master/pass/beauty-2013-07-amanda-seyfried-1-main.jpg");
+}
+
+.load-banner{
+            animation:load-it 3.5s ease-in forwards;
+    animation-iteration-count:1;
+    opacity:0;
+   animation-delay:3s;
+    padding:30px;
+    background:rgba(0,0,0,0.5);
+    right:16.6%;
+    position:absolute;
+    text-align:right;
+    font-family:sans-serif;
+    color:white;
+    top:35vh;
+    text-shadow:2px 3px 15px black;
+}
+
+.load-banner h1{
+    font-size:5rem;
+}
+.load-banner h2{
+    font-size:3rem;
+}
+.load-banner h1, .load-banner h2{
+    margin:0;
+}
+
+@keyframes load-it {
+    from {opacity:0;}
+    to {opacity:1;}
 }
