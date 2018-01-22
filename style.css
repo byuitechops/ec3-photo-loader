@@ -14,7 +14,7 @@ body {
 }
 .photo-loader > div:not(:last-child) {
     width: 100%;
-    max-height: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
 }
