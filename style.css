@@ -1,0 +1,14 @@
+body{margin:0;}
+
+.photo-loader{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+}
+.photo-loader img{
+    width: calc(100% / 6);
+    height: 50%;
+    flex-grow:1;
+display:inline-block;
+}
