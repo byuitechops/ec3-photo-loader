@@ -1,3 +1,235 @@
+/*************************************************************************************/
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width : 415px) {
+    .load-5, .load-6, .load-7, .load-8, .load-9, .load-10, .load-11, .load-12{
+        display:none;
+    }
+    .photo-loader div div {
+        min-width:50%;
+    }
+    .load-2{order:1;}
+    .load-4{order:2;}
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:2.5s;
+        right:10%;
+    }
+    .begin{
+    animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:4.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it 1s  ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:6.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:7.5s;
+    opacity:0;
+}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width : 639px) and (max-device-width : 767px){
+/* Styles */
+        .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:6.5s;
+        right:10%;
+    }
+        .begin{
+    animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it 1s  ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:9.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:10.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:11.5s;
+    opacity:0;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1367px) {
+/* Styles */
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:3.5s;
+        right:10%;
+    }
+            .begin{
+    animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it 1s  ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:6.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:7.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 1026px) and (max-device-width : 1367px) and (orientation : landscape) {
+/* Styles */
+        .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:6.5s;
+        right:10%;
+    }
+            .begin{
+    animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it 1s  ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:9.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:10.5s;
+    opacity:0;
+}    .play-button{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:11.5s;
+    opacity:0;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 767px) and (max-device-width : 1025px) and (orientation : portrait) {
+/* Styles */
+    .load-7, .load-8, .load-9, .load-10, .load-11, .load-12{
+        display:none;
+    }
+    .photo-loader div div {
+        min-width:calc(100% / 3);
+    }
+    .load-2{order:1;}
+    .load-4{order:2;}
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:3.5s;
+        right:10%;
+    }
+            .begin{
+    animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it 1s  ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:6.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:7.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+}
+
+@media only screen and (min-device-width: 769px){
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:6.5s;
+        right:16.6%;
+    }
+            .begin{
+    animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it 1s  ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:9.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:10.5s;
+    opacity:0;
+}
+
+    .play-button{
+        animation:load-it 1s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:11.5s;
+    opacity:0;
+}
+}
+
+/**************************************************************************************/
+
 body {
     margin: 0;
 }
@@ -20,7 +252,6 @@ body {
 }
 
 .photo-loader div div {
-
     width: calc(100% / 6);
     height: 100%;
     background-size: cover;
@@ -115,7 +346,7 @@ body {
 }
 
 .load-12 {
-        animation:load-it 0.1s forwards;
+    animation:load-it 0.1s forwards;
     animation-iteration-count:1;
     animation-delay:6s;
     opacity:0;
@@ -123,13 +354,8 @@ body {
 }
 
 .load-banner{
-            animation:load-it 1.5s ease-in forwards;
-    animation-iteration-count:1;
-    opacity:0;
-   animation-delay:6.5s;
     padding:30px;
     background:rgba(0,0,0,0.5);
-    right:16.6%;
     position:absolute;
     text-align:right;
     font-family:sans-serif;
@@ -147,6 +373,7 @@ body {
 .load-banner h1, .load-banner h2{
     margin:0;
 }
+
 
 @keyframes load-it {
     from {opacity:0;}
