@@ -18,7 +18,7 @@
         right:10%;
     }
     .begin{
-    animation:load-it .75sease-in forwards;
+    animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:4.5s;
     opacity:0;
@@ -30,13 +30,13 @@
     opacity:0;
 }
 .journey{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:6.5s;
     opacity:0;
 }
         .play-button{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:7.5s;
     opacity:0;
@@ -53,7 +53,7 @@
         right:10%;
     }
         .begin{
-    animation:load-it .75sease-in forwards;
+    animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:8.5s;
     opacity:0;
@@ -65,13 +65,13 @@
     opacity:0;
 }
 .journey{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:10.5s;
     opacity:0;
 }
         .play-button{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:11.5s;
     opacity:0;
@@ -89,7 +89,7 @@
         right:10%;
     }
             .begin{
-    animation:load-it .75sease-in forwards;
+    animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:5.5s;
     opacity:0;
@@ -101,13 +101,13 @@
     opacity:0;
 }
 .journey{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:7.5s;
     opacity:0;
 }
         .play-button{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:8.5s;
     opacity:0;
@@ -125,7 +125,7 @@
         right:10%;
     }
             .begin{
-    animation:load-it .75sease-in forwards;
+    animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:8.5s;
     opacity:0;
@@ -137,12 +137,12 @@
     opacity:0;
 }
 .journey{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:10.5s;
     opacity:0;
 }    .play-button{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:11.5s;
     opacity:0;
@@ -168,7 +168,7 @@
         right:10%;
     }
             .begin{
-    animation:load-it .75sease-in forwards;
+    animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:5.5s;
     opacity:0;
@@ -180,13 +180,13 @@
     opacity:0;
 }
 .journey{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:7.5s;
     opacity:0;
 }
         .play-button{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:8.5s;
     opacity:0;
@@ -202,7 +202,7 @@
         right:16.6%;
     }
             .begin{
-    animation:load-it .75sease-in forwards;
+    animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:8.5s;
     opacity:0;
@@ -214,14 +214,14 @@
     opacity:0;
 }
 .journey{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:10.5s;
     opacity:0;
 }
 
     .play-button{
-        animation:load-it .75sease-in forwards;
+        animation:load-it .75s ease-in forwards;
     animation-iteration-count:1;
     animation-delay:11.5s;
     opacity:0;
