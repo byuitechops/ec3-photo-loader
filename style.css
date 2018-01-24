@@ -358,6 +358,7 @@ body {
 }
 
 .load-banner{
+    user-select:none;
          border:5px solid transparent;
     border-radius:5px;
     cursor:pointer;
