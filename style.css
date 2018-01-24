@@ -369,8 +369,19 @@ body {
     color:white;
     top:35vh;
     text-shadow:2px 3px 15px black;
+    transition:.5s ease-out;
 }
+/*
 .load-banner:hover{
+    background:rgba(50,50,50,0.5);
+         border:5px solid white;
+    border-radius:5px;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+}
+*/
+.load-banner:hover{
+    background:rgba(0,0,0,0.7);
+    transition:.5s ease-in;
          border:5px solid white;
     border-radius:5px;
     box-shadow:5px 5px 5px rgba(0,0,0,0.5);
