@@ -264,7 +264,7 @@ body {
     animation-iteration-count:1;
     animation-delay:0.5s;
     opacity:0;
-    background-image:url("https://i.pinimg.com/originals/5e/17/fe/5e17fe61fd295bff09c110daa942eabd.jpg");
+    background-image:url("./img/1.jpg");
 }
 
 .load-2 {
@@ -272,7 +272,7 @@ body {
     animation-iteration-count:1;
     animation-delay:1s;
     opacity:0;
-    background-image:url("https://www.nbc.com/sites/nbcunbc/files/files/images/2014/5/09/2014_0507_NBCUXD_Upfront2014_MarryMe_Bio_KenMarino_1230x1230_CC.jpg");
+    background-image:url("./img/2.jpg");
 }
 
 .load-3 {
@@ -280,7 +280,7 @@ body {
     animation-iteration-count:1;
     animation-delay:1.5s;
     opacity:0;
-    background-image:url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMTgxODU3MV5BMl5BanBnXkFtZTcwMTk3Njk4OQ@@._V1_SY1000_CR0,0,743,1000_AL_.jpg");
+    background-image:url("./img/3.jpg");
 }
 
 .load-4 {
@@ -288,7 +288,7 @@ body {
     animation-iteration-count:1;
     animation-delay:2s;
     opacity:0;
-    background-image:url("http://starwarsblog.starwars.com/wp-content/uploads/2017/09/mark-hamill-headshot-2017.jpg");
+    background-image:url("./img/4.jpg");
 }
 
 .load-5 {
@@ -296,7 +296,7 @@ body {
     animation-iteration-count:1;
     animation-delay:2.5s;
     opacity:0;
-    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Jason_Dohring_by_Gage_Skidmore.jpg/1200px-Jason_Dohring_by_Gage_Skidmore.jpg");
+    background-image:url("./img/5.jpg");
 }
 
 .load-6 {
@@ -304,7 +304,7 @@ body {
     animation-iteration-count:1;
     animation-delay:3s;
     opacity:0;
-    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/k-l/thumbs/leonardo-dicaprio_sc_768x1024.png");
+    background-image:url("./img/6.jpg");
 }
 
 .load-7 {
@@ -312,7 +312,7 @@ body {
     animation-iteration-count:1;
     animation-delay:3.5s;
     opacity:0;
-    background-image:url("https://vignette.wikia.nocookie.net/stargate/images/0/07/Enrico_Colantoni.jpg/revision/latest?cb=20090824093652");
+    background-image:url("./img/7.jpg");
 }
 
 .load-8 {
@@ -320,21 +320,21 @@ body {
     animation-iteration-count:1;
     animation-delay:4s;
     opacity:0;
-    background-image:url("https://i.imgur.com/2IBV5U5.jpg");
+   background-image:url("./img/8.jpg");
 }
 .load-9 {
         animation:load-it 0.1s forwards;
     animation-iteration-count:1;
     animation-delay:4.5s;
     opacity:0;
-    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/g-i/thumbs/harry-hamlin_sc_768x1024.png");
+    background-image:url("./img/9.jpg");
 }
 .load-10 {
         animation:load-it 0.1s forwards;
     animation-iteration-count:1;
     animation-delay:5s;
     opacity:0;
-    background-image:url("http://vignette2.wikia.nocookie.net/veronicamars/images/0/0f/Teddy_Dunn.jpg/revision/latest?cb=20140211054702");
+   background-image:url("./img/10.jpg");
 }
 
 .load-11 {
@@ -342,7 +342,7 @@ body {
     animation-iteration-count:1;
     animation-delay:5.5s;
     opacity:0;
-    background-image:url("https://vignette.wikia.nocookie.net/disney/images/8/89/Oscar_Isaac.jpg/revision/latest?cb=20151221125357");
+   background-image:url("./img/11.jpg");
 }
 
 .load-12 {
@@ -350,7 +350,7 @@ body {
     animation-iteration-count:1;
     animation-delay:6s;
     opacity:0;
-    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/j/thumbs/john-boyega-327611_828x1104.png");
+    background-image:url("./img/12.jpg");
 }
 
 .load-banner{
